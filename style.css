@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-default);
+}
+
+:root {
+    --cor-de-fundo: #EBECEE
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+h1{
+    background-color: #ffffff;
+}
