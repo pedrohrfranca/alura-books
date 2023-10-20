@@ -58,3 +58,60 @@
 .conteiner-botao{
     display: none;
 }
+
+.conteiner-titulo{
+    display: none;
+}
+
+.opcoes{
+    display: none;
+}
+
+.conteiner-imagem-coracao{
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .conteiner-titulo{
+        font-size: 30px;
+        font-weight: 400;
+        display: block;
+    }
+
+    .conteiner-titulo-negrito{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+        list-style: none;
+    }
+
+    .opcoes-item {
+        padding: 0 1rem;
+        text-transform: uppercase;
+    }
+
+    .opcoes-link{
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .conteiner-imagem-coracao{
+        display: none;
+    }
+
+    .cabecalho_menu-hamburguer {
+        display: none;
+    }
+
+    .opcoes-botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoes-botao{
+        display: none;
+    }
+}

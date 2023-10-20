@@ -29,3 +29,21 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .topicos-titulo {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .topicos-link {
+        font-size: 20px;
+    }
+
+    .topicos-lista {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
